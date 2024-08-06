@@ -7,11 +7,11 @@
 在vercel修改环境变量配置
 
 ```shell
-RECIPIENT="<Your wallet address>"
+RECIPIENT="5hChWG9mHaUZexS63LKjVGzwvsmipZ6yEaeG4hyNX9uD"
 BASE_AMOUNT=0.1
-TITLE="<Your title>"
-AVATAR="<Your avatar URL>"
-DESCRIPTION="<Your description>"
+TITLE="leefbiant Solana Blink"
+AVATAR="https://photos.app.goo.gl/m5VoynYf3smP1yfc7"
+DESCRIPTION="This is my Blink"
 ```
 
 部署成功后，访问https://<你的仓库名>.vercel.com/api/actions/donate 看到json返回结果就代表部署正确，并且核对你输入的环境变量
